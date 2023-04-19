@@ -360,6 +360,7 @@ text-transform: capitalize;
 }
 
 .team-position {
+  margin-bottom: 8px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -374,8 +375,114 @@ text-transform: capitalize;
   border-radius: 0px 0px 4px 4px;
 }
 
+.social-links {
+  gap: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.social-item {
+  width: 40px;
+  height: 40px;
+}
+
+.social-link {
+  background-color: var(--color-iris);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--color-ocean);
+}
+
+.social-icon {
+  fill: var(--color-cloud);
+}
+
+/* Customers */
+
+.customers {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.customers-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+
+  margin-bottom: 72px;
+
+  letter-spacing: 0.02em;
+
+  color: var(--color-navy-blue);
+}
+
+.customers-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.customers-list-item {
+  width: 168px;
+  height: 88px;
+}
+
+.customers-link {
+  color: var(--color-light-slate);
+
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  height: 100%;
+
+  border: 1px solid var(--color-light-slate);
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers-icon {
+  fill: currentColor;
+}
+
+.customers-link:hover,
+.customers-link:focus{
+  color: var(--color-ocean);
+  border-color: var(--color-ocean); 
+}
+
+
+
 
 /* footer */
+
+
 .footer {
   padding: 100px 0;
   background-color: var(--color-navy-blue);
@@ -405,7 +512,48 @@ text-transform: capitalize;
   width: 264px;
 }
 
-
+/* Social links container */ 
+  
+.footer-social-media {
+  display: block;
+  align-items: baseline;
+  margin-right: 120px;
+}
+.text-social-links {
+  font-weight: 500;
+  color: var(--color-white);
+  margin-bottom: 16px;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  
+}
+.social-media-names {
+  gap: 16px;
+  align-items: baseline;
+  display: flex;
+}
+.footer-social-item {
+  width: 40px;
+  height: 40px;
+}
+  
+.footer-social-link {
+  background-color: var(--color-iris);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media-icon {
+  fill: var(--color-cloud);
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--color-green);
+}
 
 
 /* ==========portfolio=========== */
