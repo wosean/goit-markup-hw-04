@@ -87,6 +87,8 @@
     display: flex;
     align-items: center;
     margin: 0 auto 0 auto;
+
+   
   }
 
   .header {
@@ -128,6 +130,9 @@
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
 
   .nav .link:hover,
@@ -191,6 +196,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 
   }
 
@@ -398,7 +404,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
 
   .social-link:hover,
@@ -407,6 +412,7 @@
   }
 
   .social-icon {
+    justify-content: center;
     fill: var(--color-cloud);
   }
 
