@@ -485,9 +485,8 @@ img {
   /* footer */
 
 .logotype {
-  display: flex;
-  gap: 120px;
-  align-items: baseline;
+  margin: 120px;
+
 }
 
 .footer {
