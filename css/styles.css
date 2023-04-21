@@ -488,10 +488,8 @@ img {
 
 .footer-container {
   display: flex;
-  gap: 120px;
-  align-items: baseline;
-
   margin-right: 120px;
+  align-items: baseline;
 }
 
 
