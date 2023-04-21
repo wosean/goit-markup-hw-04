@@ -310,6 +310,7 @@ img {
 
 
   /* section 4 */
+
 .team-container {
   padding: 32px 0;
 }
@@ -481,17 +482,13 @@ img {
     border-color: var(--color-ocean);
   }
 
-
-
-
   /* footer */
 
 .footer-container {
   display: flex;
-  margin-right: 120px;
+  gap: 120px;
   align-items: baseline;
 }
-
 
 .footer {
   padding: 100px 0;
