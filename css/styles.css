@@ -378,6 +378,9 @@ img {
 
 /* social icons */
 
+.social-media{
+  padding: 32px 0;
+}
 .social-links{
   display: flex;
   justify-content: center;
@@ -772,6 +775,11 @@ img {
 
   /* footer portfolio */
 
+.footer-container {
+  display: flex;
+  gap: 120px;
+  align-items: baseline;
+}
 
   .footer {
     background-color: var(--color-navy-blue);
